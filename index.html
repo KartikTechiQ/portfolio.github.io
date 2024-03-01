@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PORTFOLIO WEBSITE</title>
+    <link rel="stylesheet" href="app4.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <script
+      src="https://kit.fontawesome.com/39045a8a4b.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img
+            src="images/IMG_20240211_130837-removebg-preview.png"
+            class="logo"
+          />
+          <ul id="sidemenu">
+            <li><a href="#header">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#services">SERVICES</a></li>
+            <li><a href="#portfolio">MY WORK</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+            <i class="fas fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fas fa-solid fa-bars" onclick="openmenu()"> </i>
+        </nav>
+        <div class="header-text">
+          <p>FULLSTACK DEVELOPER</p>
+          <h1>Hi , I'M <span>Kartikeya</span></h1>
+        </div>
+      </div>
+    </div>
+
+    <div id="about">
+      <!-- ------------ABOUT---------- -->
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img
+              src="images/premium_photo-1678197937465-bdbc4ed95815.jpg"
+              alt=""
+            />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              Passionate and creative 23-year-old front-end developer, weaving
+              digital magic through code. With an eye for design and a knack for
+              turning concepts into captivating user experiences, I thrive on
+              the dynamic intersection of technology and aesthetics. Always on
+              the pulse of the latest web trends, I sculpt pixels and breathe
+              life into websites, crafting seamless and visually stunning
+              digital landscapes. Let's turn ideas into interactive wonders
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                SKILLS
+              </p>
+              <p class="tab-links" onclick="opentab('education')">EDUCATION</p>
+            </div>
+
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>UI/UX</span> <br />Designing Web Interface</li>
+                <li>
+                  <span>Web Development Front-end</span> <br />HTML, CSS ,
+                  JAVSCRIPT , React.js
+                </li>
+                <li>
+                  <span>Web Development Backend</span> <br />NodeJs. , ExpressJs
+                  , mongoDB, MySql
+                </li>
+                <li>
+                  <span>CSS Frameworks </span> <br />BOOTSTRAP||TAILWIND CSS
+                </li>
+                <li><span>Version Control </span> <br />GIT||Github</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2017-2018</span> <br />Intermediate(P.C.M background)
+                  <br />Marks Obtained 89.8%
+                </li>
+                <li>
+                  <span>2018-2021</span> <br />Bacherlors in Mathematics
+                  <br />Marks Obtained 77.15%
+                </li>
+                <li>
+                  <span>2021-2023 </span> <br />Masters in Physics(DIgital
+                  Electronics) <br />Marks Obtained 73%
+                </li>
+                <li>
+                  <span
+                    >2023-CURRENT
+                    <br />
+                  </span>
+                  Edyoda Ed-Tech platform <br />Full Stack Web Developer
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- -------------SERVICES--------------- -->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h1>WEB Designing</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Asperiores error soluta molestiae commodi quis deleniti, eius eum
+              similique culpa atque.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+
+          <div>
+            <i class="fa-solid fa-laptop"></i>
+            <h1>UI/UX Design</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Asperiores error soluta molestiae commodi quis deleniti, eius eum
+              similique culpa atque.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-user"></i>
+            <h1>Personalised Interface</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Asperiores error soluta molestiae commodi quis deleniti, eius eum
+              similique culpa atque.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- -------------------------------PORTFOLIO----------------- -->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">MY WORK</h1>
+        <div class="worklist">
+          <div class="work">
+            <img src="images/pexels-pixabay-162622.jpg" alt="" />
+            <div class="layer">
+              <h3>LOGIN PAGES</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo
+                cupiditate illum officiis inventore accusantium aperiam,
+                incidunt impedit consectetur itaque, rem obcaecati quasi
+                similique consequuntur quis laudantium deleniti! Corrupti, eos.
+              </p>
+              <a href="#"><i class="fa-solid fa-link"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/pexels-karolina-grabowska-5632402.jpg" alt="" />
+            <div class="layer">
+              <h3>E COMMERCE WEBSITE</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo
+                cupiditate illum officiis inventore accusantium aperiam,
+                incidunt impedit consectetur itaque, rem obcaecati quasi
+                similique consequuntur quis laudantium deleniti! Corrupti, eos.
+              </p>
+              <a href="#"><i class="fa-solid fa-link"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/pexels-mikael-blomkvist-6476584.jpg" alt="" />
+            <div class="layer">
+              <h3>PORTFOLIO WEBSITE</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo
+                cupiditate illum officiis inventore accusantium aperiam,
+                incidunt impedit consectetur itaque, rem obcaecati quasi
+                similique consequuntur quis laudantium deleniti! Corrupti, eos.
+              </p>
+              <a href="#"><i class="fa-solid fa-link"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="" class="btn">see more</a>
+      </div>
+    </div>
+    <!-- -------------------------- CONTACT ------- -->
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact me</h1>
+            <p>
+              <i class="fa-regular fa-envelope"></i> kartikeyakapoor79@gmail.com
+            </p>
+            <p><i class="fa-solid fa-phone"></i> 7830894928</p>
+            <div class="social-icons">
+              <a href=""><i class="fa-brands fa-linkedin"></i></a>
+              <a href="https://github.com/KartikTechiQ"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+              <a href="https://replit.com/@kartikeyaKapoor"
+                ><i class="fa-solid fa-vr-cardboard"></i
+              ></a>
+            </div>
+            <a
+              href="https://drive.google.com/file/d/1bDD4-ZOpJZBLtJbXMf-9j5z1wtygx4zk/view?usp=drivesdk"
+              download
+              class="btn btn2"
+              >Download CV</a
+            >
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>
+          Copyright @ Kartik . Made with <i class="fa-solid fa-heart"></i> by
+          kartikTechiQ
+        </p>
+      </div>
+    </div>
+
+    <script src="App4.js"></script>
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        document.getElementById(tabname).classList.add("active-tab");
+        // Add the "active-link" class to the clicked tab
+        event.currentTarget.classList.add("active-link");
+      }
+    </script>
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+      function openmenu() {
+        sidemenu.style.right = "0";
+      }
+      function closemenu() {
+        sidemenu.style.right = "-200px";
+      }
+    </script>
+
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbyKIoXvI5otyNIvQzsClRZJPsGY7X79JEw1UV2UvRph7wN64J9q9WHYN3Rpw3lw0VHm/exec";
+      const form = document.forms["submit-to-google-sheet"];
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => console.log("Success!", response))
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
+</html>
